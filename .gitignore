@@ -1,0 +1,36 @@
+
+# Large local files
+ipynb/Data_info.ipynb
+Guhong/data_sample.mat
+*.mat
+*.ckpt
+*.npy
+*.npz
+data/
+checkpoints/
+runs/
+wandb/
+
+# Large local files
+ipynb/Data_info.ipynb
+Guhong/data_sample.mat
+
+# Data / model artifacts
+*.mat
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+checkpoints/
+runs/
+wandb/
+__pycache__/
+*.pyc
+
+# Synology / NAS metadata
+@eaDir/
+**/@eaDir/
+*@SynoEAStream
+**/*@SynoEAStream
